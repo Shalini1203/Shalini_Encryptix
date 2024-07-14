@@ -1,0 +1,71 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+.hero {
+    background-image: linear-gradient(to bottom, #f7f7f7, #fff);
+    padding: 5em;
+    text-align: center;
+}
+
+.hero img {
+    width: 50%;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.hero blockquote {
+    font-size: 1.5em;
+    font-style: italic;
+    color: #666;
+    padding: 1em;
+    border-left: 5px solid #ccc;
+}
+
+.bio,.achievements,.inspiration {
+    padding: 2em;
+}
+
+.bio h2,.achievements h2,.inspiration h2 {
+    color: #333;
+    margin-top: 0;
+}
+
+.bio p,.achievements p,.inspiration p {
+    margin-bottom: 1em;
+}
+
+.achievements ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.achievements li {
+    padding: 0.5em;
+    border-bottom: 1px solid #ccc;
+}
+
+.achievements li:last-child {
+    border-bottom: none;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    clear: both;
+}
